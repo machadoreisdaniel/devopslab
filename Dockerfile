@@ -1,5 +1,5 @@
 # Use uma Imagem Official do Python
-FROM python:3.9-slim
+FROM python:3.10
 
 # Declarando a váriavel do nome do arquivo de configuração do NewRelic
 ENV NEW_RELIC_CONFIG_FILE=newrelic.ini  NEW_RELIC_LICENSE_KEY=licensekey
